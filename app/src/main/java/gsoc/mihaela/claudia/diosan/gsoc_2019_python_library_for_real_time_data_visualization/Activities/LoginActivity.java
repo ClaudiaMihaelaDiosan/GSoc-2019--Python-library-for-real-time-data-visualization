@@ -1,24 +1,22 @@
-package gsoc.mihaela.claudia.diosan.gsoc_2019_python_library_for_real_time_data_visualization;
+package gsoc.mihaela.claudia.diosan.gsoc_2019_python_library_for_real_time_data_visualization.Activities;
 
-import android.content.BroadcastReceiver;
 import android.content.Intent;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
+
+import gsoc.mihaela.claudia.diosan.gsoc_2019_python_library_for_real_time_data_visualization.R;
 
 public class LoginActivity extends AppCompatActivity {
 
 
     // Views
-    TextView createAccount =  findViewById(R.id.create_account);
-    TextView forgotPassword = findViewById(R.id.forgot_password);
+   // TextView createAccount =  findViewById(R.id.create_account);
+      TextView forgotPassword = findViewById(R.id.forgot_password);
 
 
     @Override
@@ -26,13 +24,13 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        createAccount.setOnClickListener(new View.OnClickListener() {
+      /*  createAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
 
         forgotPassword.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    public boolean onCreateOptionsMenu(Menu menu) {
+ /*   public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.home_menu, menu);
         return true;
@@ -65,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
         return true;
-    }
+    }*/
 
 
 }

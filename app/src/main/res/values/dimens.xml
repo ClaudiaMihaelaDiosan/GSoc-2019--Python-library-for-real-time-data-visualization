@@ -11,6 +11,8 @@
 
     <dimen name="nav_header_icon">150dp</dimen>
 
+    <dimen name="nav_header_icon_land">250dp</dimen>
+
     <dimen name="landscape_elements_space">100dp</dimen>
 
 

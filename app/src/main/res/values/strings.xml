@@ -1,12 +1,11 @@
 <resources>
-    <string name="app_name">GSoc-2019-Python-library-for-real-time-data-visualization</string>
+    <string name="app_name">Social Care GSoc2019</string>
 
     <!-- Prompt & actions -->
 
     <string name="prompt_username">Username</string>
     <string name="prompt_password">Password</string>
     <string name="prompt_forgot_password">Forgot password?</string>
-    <string name="prompt_create_account">No account yet? Create one!</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_first_name">First name</string>
     <string name="prompt_last_name">Last name</string>
@@ -34,6 +33,7 @@
     <string name="google_sign_up">GOOGLE SIGN UP</string>
     <string name="menu_statistics">Statistics</string>
     <string name="menu_about_us">About us</string>
+    <string name="sign_up_button">REGISTER</string>
 
 
     <!-- Text and titles -->
@@ -83,9 +83,5 @@
     <string name="title_nav_help">HELP</string>
     <string name="title_nav_about">ABOUT US</string>
     <string name="title_nav_support">SUPPORT DEVELOPMENT</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
 
 </resources>
