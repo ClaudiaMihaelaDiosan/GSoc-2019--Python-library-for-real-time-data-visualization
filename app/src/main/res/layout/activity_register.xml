@@ -88,10 +88,9 @@
             android:checkMark="?android:attr/listChoiceIndicatorMultiple"
             android:gravity="center_vertical"
             android:text="@string/check_volunteer"
-
             />
 
-
+        <include layout="@layout/register_volunteer"/>
 
         <Button
             android:id="@+id/create_account_button"
