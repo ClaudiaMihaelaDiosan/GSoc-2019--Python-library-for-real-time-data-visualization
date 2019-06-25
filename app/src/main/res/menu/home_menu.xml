@@ -2,17 +2,13 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:title="@string/menu_statistics"
-        android:id="@+id/statistics"
-        android:icon="@drawable/statistics_icon_menu"
-        app:showAsAction="ifRoom" />
+
 
     <item
         android:title="@string/menu_about_us"
         android:id="@+id/about_us"
         android:icon="@drawable/about_us_icon_menu"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="always"/>
 
 
 </menu>
