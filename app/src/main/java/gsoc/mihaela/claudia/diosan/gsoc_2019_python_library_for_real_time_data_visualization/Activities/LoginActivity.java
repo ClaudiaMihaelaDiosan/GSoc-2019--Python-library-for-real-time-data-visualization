@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -75,6 +76,10 @@ public class LoginActivity extends AppCompatActivity {
             case R.id.about_us:
                 Intent intent1 = new Intent(this, AboutUsActivity.class);
                 this.startActivity(intent1);
+                AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
+
+
+
                 break;
 
             default:
