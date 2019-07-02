@@ -30,7 +30,7 @@
             android:textColor="@color/colorAccent"
             android:hint="@string/prompt_first_name"
             android:maxLines="1"
-            android:drawableStart="@drawable/ic_person_add_register"
+            android:drawableEnd="@drawable/ic_person_add_register"
             android:inputType="textPersonName"
             android:singleLine="true" />
 
@@ -41,7 +41,7 @@
             android:textColor="@color/colorAccent"
             android:hint="@string/prompt_last_name"
             android:maxLines="1"
-            android:drawableStart="@drawable/ic_person_add_register"
+            android:drawableEnd="@drawable/ic_person_add_register"
             android:inputType="textPersonName"
             android:singleLine="true" />
 
@@ -52,7 +52,7 @@
             android:textColor="@color/colorAccent"
             android:hint="@string/prompt_phone_number"
             android:maxLines="1"
-            android:drawableStart="@drawable/ic_phone_register"
+            android:drawableEnd="@drawable/ic_phone_register"
             android:inputType="phone"
             android:singleLine="true" />
 
@@ -63,7 +63,7 @@
             android:textColor="@color/colorAccent"
             android:hint="@string/prompt_age"
             android:maxLines="1"
-            android:drawableStart="@drawable/ic_cake_register"
+            android:drawableEnd="@drawable/ic_cake_register"
             android:inputType="numberDecimal"
             android:singleLine="true" />
 

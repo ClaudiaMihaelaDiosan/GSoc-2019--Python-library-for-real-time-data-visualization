@@ -14,15 +14,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/register_title"
-            android:layout_gravity="center"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="20dp"
-            android:textColor="@color/darkblue"/>
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/register_icon_title" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register_title"
+                android:layout_gravity="center"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/darkblue"/>
+
+        </LinearLayout>
         <View
             android:id="@+id/divider2"
             android:layout_width="match_parent"
@@ -49,7 +64,7 @@
                 android:textColor="@color/colorAccent"
                 android:hint="@string/prompt_username"
                 android:maxLines="1"
-                android:drawableStart="@drawable/ic_person_register"
+                android:drawableEnd="@drawable/ic_person_register"
                 android:inputType="text"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
@@ -63,7 +78,7 @@
                 android:textColor="@color/colorAccent"
                 android:hint="@string/prompt_email"
                 android:maxLines="1"
-                android:drawableStart="@drawable/ic_email_register"
+                android:drawableEnd="@drawable/ic_email_register"
                 android:inputType="textEmailAddress"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
@@ -77,7 +92,7 @@
                 android:textColor="@color/colorAccent"
                 android:hint="@string/prompt_password"
                 android:maxLines="1"
-                android:drawableStart="@drawable/ic_lock_register"
+                android:drawableEnd="@drawable/ic_lock_register"
                 android:inputType="textPassword"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
@@ -99,7 +114,7 @@
             android:id="@+id/create_account_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/lightblue"
+            android:background="@drawable/button_rounded_register"
             android:text="@string/register_button"
             android:textColor="@color/white"
             android:layout_gravity="center"
@@ -110,7 +125,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@color/crimson"
+            android:background="@drawable/button_rounded_cancel"
             android:text="@string/cancel_button"
             android:textColor="@color/white" />
     </LinearLayout>

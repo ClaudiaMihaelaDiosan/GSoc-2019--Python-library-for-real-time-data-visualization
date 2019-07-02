@@ -12,15 +12,33 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/about_title"
-            android:layout_gravity="center"
-            android:textSize="40sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="30dp"
-            android:textColor="@color/darkblue"/>
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/about_us_icon_title" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_title"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/darkblue"/>
+
+
+        </LinearLayout>
+
+
 
         <TextView
             android:layout_width="match_parent"
@@ -36,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:background="@color/lightgreen"
+            android:background="@drawable/button_rounded_back"
             android:text="@string/btn_back"
             android:textColor="@color/white" />
 
