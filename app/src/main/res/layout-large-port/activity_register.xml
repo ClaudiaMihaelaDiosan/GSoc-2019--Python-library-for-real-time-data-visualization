@@ -21,8 +21,8 @@
             android:layout_gravity="center">
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
                 android:layout_marginTop="10dp"
                 android:src="@drawable/register_icon_title" />
 
@@ -32,11 +32,10 @@
                 android:layout_height="wrap_content"
                 android:text="@string/register_title"
                 android:layout_gravity="center"
-                android:textSize="30sp"
+                android:textSize="40sp"
                 android:textStyle="bold"
                 android:layout_marginBottom="20dp"
                 android:textColor="@color/darkblue"/>
-
 
         </LinearLayout>
         <View

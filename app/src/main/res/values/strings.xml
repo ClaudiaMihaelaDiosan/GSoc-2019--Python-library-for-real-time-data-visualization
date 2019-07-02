@@ -1,12 +1,11 @@
 <resources>
-    <string name="app_name">GSoc-2019-Python-library-for-real-time-data-visualization</string>
+    <string name="app_name">Social Care GSoc2019</string>
 
     <!-- Prompt & actions -->
 
     <string name="prompt_username">Username</string>
     <string name="prompt_password">Password</string>
     <string name="prompt_forgot_password">Forgot password?</string>
-    <string name="prompt_create_account">No account yet? Create one!</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_first_name">First name</string>
     <string name="prompt_last_name">Last name</string>
@@ -24,7 +23,7 @@
 
     <string name="google_sign_in">GOOGLE SIGN IN</string>
     <string name="btn_back">BACK</string>
-    <string name="lbl_forgot_password">Reset you password here!</string>
+    <string name="lbl_forgot_password">Reset your password here!</string>
     <string name="forgot_password_msg">Insert the email you create your account and we will send you a message to reset your password.</string>
     <string name="register_as_donor_button">REGISTER AS DONOR</string>
     <string name="register_as_volunteer_button">REGISTER AS VOLUNTEER</string>
@@ -34,13 +33,13 @@
     <string name="google_sign_up">GOOGLE SIGN UP</string>
     <string name="menu_statistics">Statistics</string>
     <string name="menu_about_us">About us</string>
+    <string name="sign_up_button">REGISTER</string>
 
 
     <!-- Text and titles -->
 
     <string name="title_create_account">What kind of help do you want to offer?</string>
-    <string name="conditions_register_as_donor">If you register as Donor you will have the possibility to donate things like food, clothes, a work place, lodging, or higine products.You can do it personally or request the help of a volunteer person who will deliver the products for you.You also can contact us if you know some person who needs our help.</string>
-    <string name="conditions_register_as_volunteer">If you register as Volunteer you commit to complete and manage the profiles of one or several people in need, talking with them and in case that someone wants to donate them something you should facilitate the delivery of the products.</string>
+    <string name="conditions_register">If you register as Donor you will have the possibility to donate things like food, clothes, a work place, lodging, or higine products.You can do it personally or request the help of a volunteer person who will deliver the products for you.You also can contact us if you know some person who needs our help.\n\nIf you register as Volunteer you commit to complete and manage the profiles of one or several people in need, talking with them and in case that someone wants to donate them something you should facilitate the delivery of the products.</string>
     <string name="register_donor">Register using email</string>
     <string name="register_donor_title">REGISTER AS DONOR</string>
     <string name="register_volunteer_title">REGISTER AS VOLUNTEER</string>
@@ -83,9 +82,5 @@
     <string name="title_nav_help">HELP</string>
     <string name="title_nav_about">ABOUT US</string>
     <string name="title_nav_support">SUPPORT DEVELOPMENT</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
 
 </resources>

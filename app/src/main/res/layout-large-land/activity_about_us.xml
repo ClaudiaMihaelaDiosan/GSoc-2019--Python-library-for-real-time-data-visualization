@@ -19,8 +19,8 @@
             android:layout_gravity="center">
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
                 android:layout_marginTop="10dp"
                 android:src="@drawable/about_us_icon_title" />
 
@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/about_title"
                 android:layout_gravity="center"
-                android:textSize="30sp"
+                android:textSize="40sp"
                 android:textStyle="bold"
                 android:layout_marginBottom="30dp"
                 android:textColor="@color/darkblue"/>
@@ -39,9 +39,10 @@
         </LinearLayout>
 
 
+
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="221dp"
+            android:layout_height="200dp"
             android:layout_gravity="center"
             android:gravity="center"
             android:text="@string/about_text"
