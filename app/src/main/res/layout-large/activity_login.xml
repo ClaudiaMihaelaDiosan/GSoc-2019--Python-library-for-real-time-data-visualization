@@ -23,18 +23,45 @@
         android:layout_marginBottom="40dp"/>
 
 
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/no_connectivity"
+        android:background="@drawable/no_internet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <android.support.design.widget.TextInputEditText
-            android:id="@+id/username"
+            android:id="@+id/email_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/prompt_username"
+            android:hint="@string/prompt_email"
             android:textColor="@color/colorAccent"
             android:inputType="text"
-            android:drawableEnd="@drawable/user"
+            android:drawableEnd="@drawable/email"
             android:maxLines="1"/>
     </android.support.design.widget.TextInputLayout>
 
@@ -101,6 +128,10 @@
         android:layout_marginBottom="20dp"
         android:drawableStart="@drawable/drawable_google"
         />
+
+</LinearLayout>
+
+    </ScrollView>
 
 
 </LinearLayout>

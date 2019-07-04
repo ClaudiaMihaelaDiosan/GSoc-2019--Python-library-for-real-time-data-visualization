@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <android.support.design.widget.TextInputEditText
-                android:id="@+id/username"
+                android:id="@+id/username_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorAccent"
@@ -75,7 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <android.support.design.widget.TextInputEditText
-                android:id="@+id/email"
+                android:id="@+id/email_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorAccent"

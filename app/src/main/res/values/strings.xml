@@ -83,4 +83,13 @@
     <string name="title_nav_about">ABOUT US</string>
     <string name="title_nav_support">SUPPORT DEVELOPMENT</string>
 
+
+
+    <!-- Errors -->
+
+    <string name="error_password_too_short">The password is too short!</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="connectivity_on">connectivity_on</string>
+
 </resources>
